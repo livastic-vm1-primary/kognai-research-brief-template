@@ -1,0 +1,11 @@
+{
+  "id": "research-brief-source-first-livastic",
+  "name": "Source-first Research Brief",
+  "intent": ["research brief", "research synthesis", "market landscape", "technical comparison", "citation backed report"],
+  "default_profile": { "primary": "quality", "secondary": ["maintainability", "compliance"] },
+  "composition": { "roles": [{ "role": "researcher", "count": 2 }, { "role": "synthesizer", "count": 1 }, { "role": "reviewer", "count": 1 }] },
+  "workflow": "Clarify scope -> compile source-grounded evidence -> extract claims with references -> reconcile conflicts and unknowns -> synthesize a brief -> review factual support and limitations -> ship only reproducible files",
+  "skills": ["citation-validation", "source-credibility", "claim-extraction", "uncertainty-reporting"],
+  "tools": ["web-search", "markdown-editor", "citation-manager"],
+  "cost_per_run": { "cloud_usd": null, "sovereign_usd": 0, "measured_on": "Not yet measured on a completed real build; cloud cost is parsed from the engine Total footer, sovereign mode is configured to report zero engine inference cost.", "runs": 0 }
+}

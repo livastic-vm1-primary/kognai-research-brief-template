@@ -1,0 +1,13 @@
+{
+  "name": "kognai-research-brief-template-livastic-vm1",
+  "version": "0.1.0",
+  "description": "A reproducible research-brief product template for @kognai/build with injected execution and measured-cost reporting.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "exports": { ".": "./src/index.js" },
+  "bin": { "kognai-research-brief": "./bin/kognai-research-brief.js" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["kognai", "template", "research", "product", "agent"],
+  "license": "MIT",
+  "dependencies": { "@kognai/build": "0.7.10" }
+}
